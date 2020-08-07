@@ -6,7 +6,7 @@ Because AO3 doesn't support the content: attr() function you will have to make a
 
 Now you can make a new work, or edit an existing work. The HTML functions as follows:
 
-<span class="hunder">hover me!<span class="c1 hoverbox"></span></span>
+```<span class="hunder">hover me!<span class="c1 hoverbox"></span></span>```
 
 The "hunder" class gives the words encompassed in the span element the dotted underline and signifies what you can hover over to trigger the tooltip. "c1" is for the tooltip text: so you would change it for every different tootip. You can use anything you want, but for example I changed it to "c2", "c3", "c4", etc. Finally, "hoverbox" is what styles the tooltip, so make sure you leave it in for every tooltip.
 
