@@ -1,0 +1,36 @@
+#workskin p {
+  position: relative;
+}
+
+#workskin .hunder {
+  border-bottom: 1px dotted;
+}
+
+#workskin .hoverbox {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  top: -6em;
+  display: none;
+  border: 2px solid;
+  padding: 5px 8px;
+  max-width: 50%;
+  white-space: pre-line;
+  z-index: 1;
+}
+
+#workskin .hunder:hover .hoverbox {
+  display: block;
+}
+
+#workskin .c1:before {
+  content: "tooltip content goes here!";
+}
+
+#workskin .c2:before {
+  content: "this is a \a \a multi-line tooltip!";
+}
+
+#workskin .c3:before {
+ content: "you can have as many as you want! just make sure to use a different class for each one!";
+}
